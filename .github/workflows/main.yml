@@ -1,0 +1,15 @@
+name: cicd-aws
+
+on:
+  push:
+    branches: 
+      main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run github actions
+        run: 
+          docker version
