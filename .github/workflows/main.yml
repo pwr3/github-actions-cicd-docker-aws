@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Run github actions
         run: 
-          docker image ls
+          ls
